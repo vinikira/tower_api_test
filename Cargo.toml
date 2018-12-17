@@ -1,0 +1,12 @@
+[package]
+name = "tower_api_test"
+version = "0.1.0"
+authors = ["Vinícius Simões <vinicius.simoes95@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+tower-web = "*"
+tokio = "*"
+serde = "*"
+serde_json = "*"
+serde_derive = "*"

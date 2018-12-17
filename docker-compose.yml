@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  web:
+    build: .
+    container_name: tower_api_test
+    ports:
+      - "3000:3000"
