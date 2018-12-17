@@ -23,7 +23,7 @@ RUN cargo build --release
 
 FROM scratch
 
-WORKDIR /usr/src/api_bench_rs
+WORKDIR /usr/src/tower_api_test
 
 COPY --from=builder /home/rust/tower_api_test/target/x86_64-unknown-linux-musl/release/tower_api_test .
 
